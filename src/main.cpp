@@ -16,6 +16,7 @@
 #include "ota.h"
 
 #include <ESPAsyncWebServer.h>
+#include <WebSocketsServer.h>
 
 const gpio_num_t internalLED = GPIO_NUM_2;
 
@@ -29,6 +30,7 @@ static const uint8_t MAX_RETRIES = 80;
 AsyncWebServer server(PORT);
 AsyncWebSocket ws("/ws"); // access at ws://[esp ip]/ws
 AsyncEventSource events("/events"); // event source (Server-Sent events)
+WebSocketsServer webSocket = WebSocketsServer(81);
 
 const char* http_username = "admin";
 const char* http_password = "admin";
