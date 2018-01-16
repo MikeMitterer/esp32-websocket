@@ -1,0 +1,8 @@
+.pioenvs
+.piolibdeps
+CMakeListsPrivate.txt
+.clang_complete
+.gcc-flags.json
+bin
+cmake-build-debug
+lib
