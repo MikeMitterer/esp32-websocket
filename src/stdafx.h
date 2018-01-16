@@ -8,7 +8,7 @@
 #include <Arduino.h>
 #include <ArduinoOTA.h>
 #include <ArduinoLog.h>
-
+#include <WiFiServer.h>
 
 
 #endif //ESP32_STDAFX_H
