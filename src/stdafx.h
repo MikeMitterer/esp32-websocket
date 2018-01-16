@@ -8,7 +8,8 @@
 #include <Arduino.h>
 #include <ArduinoOTA.h>
 #include <ArduinoLog.h>
+#include <WiFi.h>
 #include <WiFiServer.h>
-
+#include <WebSocketServer.h>
 
 #endif //ESP32_STDAFX_H
