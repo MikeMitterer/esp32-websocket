@@ -19,8 +19,9 @@
 #   git update-index --no-assume-unchanged src/config.h
 #
 
-set (${PROJECT_NAME}_PASSWORD_LS "q9uPadfh#udshf")
-set (${PROJECT_NAME}_PASSWORD_TPL "8+uCXTsouf#auh")
+set (${PROJECT_NAME}_PASSWORD_LS "<add password>")
+set (${PROJECT_NAME}_PASSWORD_TPL "<add password>")
+set (${PROJECT_NAME}_PASSWORD_ASUS "<add password>")
 
 # Variante über eine Environmentvariable
 # set (${PROJECT_NAME}_PASSWORD $ENV{PATHWORD})

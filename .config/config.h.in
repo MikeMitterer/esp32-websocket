@@ -15,7 +15,8 @@ const std::string WebSocket_VERSION_MINOR = "@WebSocket_VERSION_MINOR@";
 
 // Password compiled into source
 // Set in .config/passwords.cmake (or via ENV-VAR)
-const std::string WebSocket_PASSWORD_LS = "@WebSocket_PASSWORD_LS@";
-const std::string WebSocket_PASSWORD_TPL = "@WebSocket_PASSWORD_TPL@";
+const char* WebSocket_PASSWORD_LS = "@WebSocket_PASSWORD_LS@";
+const char* WebSocket_PASSWORD_TPL = "@WebSocket_PASSWORD_TPL@";
+const char* WebSocket_PASSWORD_ASUS = "@WebSocket_PASSWORD_ASUS@";
 
 #endif //XCTEST_CONFIG_H_IN_H

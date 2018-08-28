@@ -97,6 +97,8 @@ set(SOURCE_FILES
         src/main.cpp
         src/stdafx.cpp
         src/ota.cpp
+
+        src/socket/SocketHandler.cpp
         )
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
