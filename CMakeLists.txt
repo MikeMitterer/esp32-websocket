@@ -72,14 +72,14 @@ add_custom_target(
 
 if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/lib)
     add_custom_target(
-            CODE_COMPLETION_PIOLIB
+            ${PROJECT_NAME}_CODE_COMPLETION_PIOLIB
             SOURCES lib
     )
 endif()
 
 if(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/.piolibdeps)
     add_custom_target(
-            CODE_COMPLETION_PIOLIBDEPS
+            ${PROJECT_NAME}_CODE_COMPLETION_PIOLIBDEPS
             SOURCES .piolibdeps
     )
 endif()

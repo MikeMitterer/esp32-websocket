@@ -10,12 +10,14 @@
 #include <string>
 
 // the configured options and settings for HelloWorld
-const std::string WebSocket_VERSION_MAJOR = "@WebSocket_VERSION_MAJOR@";
-const std::string WebSocket_VERSION_MINOR = "@WebSocket_VERSION_MINOR@";
+const std::string Project_NAME          = "@PROJECT_NAME@";
+const std::string Project_VERSION       = "@WebSocket_VERSION_MAJOR@.@WebSocket_VERSION_MINOR@";
+const std::string Project_VERSION_MAJOR = "@WebSocket_VERSION_MAJOR@";
+const std::string Project_VERSION_MINOR = "@WebSocket_VERSION_MINOR@";
 
 // Password compiled into source
 // Set in .config/passwords.cmake (or via ENV-VAR)
-const char* WebSocket_PASSWORD_TPL = "@WebSocket_PASSWORD_TPL@";
-const char* WebSocket_PASSWORD_ASUS = "@WebSocket_PASSWORD_ASUS@";
+const char* Project_SSID     = "@WebSocket_SSID@";
+const char* Project_PASSWORD = "@WebSocket_PASSWORD@";
 
 #endif //XCTEST_CONFIG_H_IN_H
